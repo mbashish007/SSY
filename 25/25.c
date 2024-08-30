@@ -23,7 +23,7 @@ parent exiting 39169
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
-       #include <sys/wait.h>
+#include <sys/wait.h>
 
 
 int main() {
