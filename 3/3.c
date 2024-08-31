@@ -1,7 +1,13 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
-3. Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+============================================================================
+Name: 3.c
 
+Author: M B Ashish 
+Roll No: MT2024085
+Description: 3. Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out
 Enter new file name
