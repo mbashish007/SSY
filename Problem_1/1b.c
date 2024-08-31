@@ -1,9 +1,17 @@
 /*
-Name: M B Ashish Roll No: MT2024085
-1. Create the following types of a files using (i) shell command (ii) system call
+============================================================================
+Name: 1b.c 
+
+Author: M B Ashish
+
+Roll No: MT2024085
+
+Description: Q1. Create the following types of a files using (i) shell command (ii) system call
 a. soft link (symlink system call)
 b. hard link (link system call)
 c. FIFO (mkfifo Library Function or mknod system call)
+Date: 31 Aug, 2024.
+============================================================================
 
 Output:
 Enter target path 
