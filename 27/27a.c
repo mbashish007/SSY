@@ -32,24 +32,9 @@ total 0
 #include<unistd.h>
 
 
-void fexeclp(){
-    printf("\nexeclp system call output\n");
-    execlp("/usr/bin/ls", "ls", "-Rl", (char *)NULL);
-}
-
 int main(int argc, char * args[]) {
     printf("\nexecl system call output1\n");
     execl("/usr/bin/ls", "ls", "-Rl", (char *)NULL);
-    perror("execl counter");
-
-    fexeclp();
-
-        fexeclp();
-
-
-    printf("\nexecle system call output\n");
-    execle("/usr/bin/ls", "ls", "-Rl", (char *)NULL);
-
-    // execle()
+    
     return 0;
 } 
