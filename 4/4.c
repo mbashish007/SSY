@@ -1,7 +1,15 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-4. Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+============================================================================
+Name: 4.c
+
+Author: M B Ashish 
+Roll No: MT2024085
+
+Description: 4. Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+
+Date: 31 Aug, 2024.
+============================================================================
 
 Output
 $ ./a.out
