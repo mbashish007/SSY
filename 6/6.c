@@ -8,7 +8,7 @@ Author: M B Ashish
 
 Roll No: MT2024085
 
-6. Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+Description: 6. Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
 
 Date: 31 Aug, 2024.
 ============================================================================

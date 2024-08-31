@@ -5,7 +5,7 @@ Name: 7.c
 Author: M B Ashish  
 Roll No: MT2024085
 
-7. Write a program to copy file1 into file2 ($cp file1 file2).
+Description: 7. Write a program to copy file1 into file2 ($cp file1 file2).
 
 Date: 31 Aug, 2024.
 ============================================================================

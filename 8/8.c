@@ -8,7 +8,7 @@ Author: M B Ashish
 
 Roll No: MT2024085
 
-8. Write a program to open a file in read only mode, read line by line and display each line as it is read.
+Description: 8. Write a program to open a file in read only mode, read line by line and display each line as it is read.
 Close the file when end of file is reached.
 
 Date: 31 Aug, 2024.
