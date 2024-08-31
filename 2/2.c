@@ -1,8 +1,14 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
+============================================================================
+Name: 2.c
+Author: M B Ashish
+Roll No: MT2024085
 
-2. Write a simple program to execute in an infinite loop at the background. Go to /proc directory and
+Description: 2. Write a simple program to execute in an infinite loop at the background. Go to /proc directory and
 identify all the process related information in the corresponding proc directory.
+
+Date: 31 Aug, 2024.
+============================================================================
 
 Output
 
