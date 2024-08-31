@@ -1,4 +1,6 @@
 /*
+
+============================================================================
 Name: 22.c 
 
 Author: M B Ashish
@@ -8,6 +10,8 @@ Roll No: MT2024085
 Description: Q22. Write a program, open a file, call fork, and then write to the file by both the child as well as the
 parent processes. Check output of the file.
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out f2
 parent process id: 13845

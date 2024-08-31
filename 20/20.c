@@ -1,8 +1,13 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
+============================================================================
+Name: 20.c
+Author: M B Ashish 
+Roll No: MT2024085
 
-20. Find out the priority of your running program. Modify the priority with nice command.
+Description: 20. Find out the priority of your running program. Modify the priority with nice command.
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out
 Current priority 0

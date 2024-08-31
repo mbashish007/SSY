@@ -1,4 +1,6 @@
 /*
+
+============================================================================
 Name: 23.c 
 
 Author: M B Ashish
@@ -7,6 +9,8 @@ Roll No: MT2024085
 
 Description: Q23. Write a program to create a Zombie state of the running program.
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out 
 parent process id: 20655

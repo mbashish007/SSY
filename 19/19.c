@@ -1,8 +1,13 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-19. Write a program to find out time taken to execute getpid system call. Use time stamp counter.
+============================================================================
+Name: 19.c
+Author: M B Ashish 
+Roll No: MT2024085
 
+Description: 19. Write a program to find out time taken to execute getpid system call. Use time stamp counter.
+
+============================================================================
 $ sudo dmidecode -t processor | grep Speed
         Max Speed: 4200 MHz
         Current Speed: 2400 MHz

@@ -1,4 +1,6 @@
 /*
+
+============================================================================
 Name: 24.c 
 
 Author: M B Ashish
@@ -6,6 +8,9 @@ Author: M B Ashish
 Roll No: MT2024085
 
 Description: Q24. Write a program to create an orphan process.
+
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out 
 parent process id: 25602

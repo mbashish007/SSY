@@ -1,11 +1,18 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-17. Write a program to simulate online ticket reservation. Implement write lock
+============================================================================
+Name: 17a.c
+Author: M B Ashish 
+
+Roll No: MT2024085
+
+Description: 17. Write a program to simulate online ticket reservation. Implement write lock
 Write a program to open a file, store a ticket number and exit. Write a separate program, to
 open the file, implement write lock, read the ticket number, increment the number and print
 the new ticket number then close the file.
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $./a.out ticket3
 Written to file ticket successfully

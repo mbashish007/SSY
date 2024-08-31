@@ -1,4 +1,6 @@
 /*
+
+============================================================================
 Name: 25.c 
 
 Author: M B Ashish
@@ -8,6 +10,8 @@ Roll No: MT2024085
 Description: Q25. Write a program to create three child processes. The parent should wait for a particular child (use
 waitpid system call).
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out 
 parent process id: 39169

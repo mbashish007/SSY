@@ -1,8 +1,14 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-21. Write a program, call fork and print the parent and child process id.
+============================================================================
+Name: 21.c
+Author: M B Ashish 
+Roll No: MT2024085
 
+Description: 21. Write a program, call fork and print the parent and child process id.
+
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out
 parent process id: 5640

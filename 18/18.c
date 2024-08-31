@@ -1,12 +1,18 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-18. Write a program to perform Record locking.
+============================================================================
+Name: 18.c
+Author: M B Ashish 
+Roll No: MT2024085
+
+Description: 18. Write a program to perform Record locking.
 a. Implement write lock
 b. Implement read lock
 Create three records in a file. Whenever you access a particular record, first lock it then modify/access
 to avoid race condition.
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 
 $ cat records 
