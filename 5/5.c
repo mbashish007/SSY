@@ -1,8 +1,16 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
+
+============================================================================
+Name: 5.c
+Author: M B Ashish 
+
+Roll No: MT2024085
 
 5. Write a program to create five new files with infinite loop. Execute the program in the background
 and check the file descriptor table at /proc/pid/fd.
+
+Date: 31 Aug, 2024.
+============================================================================
 
 Output
 $ ./a.out
