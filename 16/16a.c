@@ -1,15 +1,27 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
-16. Write a program to perform mandatory locking.
+
+============================================================================
+
+Name: 16a.c
+Author: M B Ashish | Roll No: MT2024085
+Description: 16. Write a program to perform mandatory locking.
 a. Implement write lock
 b. Implement read lock
 
+Date: 31 Aug, 2024.
+============================================================================
+
 Output
-$ ./a.out test1
-PID = 31945
-Before entring CS RD
+$ ./o1 test2
+PID = 31064Before entring CS
 Inside CS 
-Enter to Unlock RD
+Enter to Unlock 
+
+
+Unlocked
+
+$ ./o2 test2
+PID = 31105Before entring CS
 */
 
 #include <stdio.h>
@@ -23,18 +35,18 @@ int main(int argc, char * args[]) {
     struct flock lock;
 
     int fd = open(args[1], O_RDWR);
-    printf("PID = %d\n", getpid());
+    printf("PID = %d", getpid());
 
-    lock.l_type=F_RDLCK;
+    lock.l_type=F_WRLCK;
     lock.l_whence= SEEK_SET;
     lock.l_start=0;
     lock.l_len = 0;
     lock.l_pid = getpid();
 
-    printf("Before entring CS RD\n");
+    printf("Before entring CS\n");
     fcntl(fd, F_SETLKW, &lock);
     printf("Inside CS \n");
-    printf("Enter to Unlock RD\n");
+    printf("Enter to Unlock \n");
     getchar();
     lock.l_type = F_UNLCK;
     fcntl(fd, F_SETLK, &lock);

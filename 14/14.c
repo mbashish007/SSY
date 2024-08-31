@@ -1,10 +1,16 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-14 Write a program to find the type of a file.
+============================================================================
+Name: 14.c
+Author: M B Ashish 
+Roll No: MT2024085
+
+Description: 14 Write a program to find the type of a file.
 a. Input should be taken from command line.
 b. program should be able to identify any type of a file.
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out d1
 File type:                directory

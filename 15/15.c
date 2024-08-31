@@ -1,8 +1,14 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-15. Write a program to display the environmental variable of the user (use environ).man 
+============================================================================
+Name: 15.c
+Author: M B Ashish 
+Roll No: MT2024085
 
+Description: 15. Write a program to display the environmental variable of the user (use environ).man 
+
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out
 USER = m-b-ashish

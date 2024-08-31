@@ -1,8 +1,16 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-12. Write a program to find out the opening mode of a file. Use fcntl.
 
+============================================================================
+Name:  12.c
+Author: M B Ashish 
+Roll No: MT2024085
+
+Description: 12. Write a program to find out the opening mode of a file. Use fcntl.
+
+
+Date: 31 Aug, 2024.
+============================================================================
 Output
 
 $ ./a.out f4

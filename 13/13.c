@@ -1,9 +1,15 @@
 /*
-Name: M B Ashish | Roll No: MT2024085
 
-13. Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to
+============================================================================
+Name: 13.c 
+Author: M B Ashish 
+Roll No: MT2024085
+
+Description: 13. Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to
 verify whether the data is available within 10 seconds or not (check in $man 2 select).
 
+Date: 31 Aug, 2024.
+============================================================================
 Output
 $ ./a.out
 No Input present in STDIN: Success
