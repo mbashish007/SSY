@@ -47,7 +47,7 @@ int main(int argc, char * args[]) {
 
     int fd2 = dup2(fd, 99) ;
     char  t[255] = "written using dup2 fd ";
-    if(write(fd1, t, 255) < 0) {
+    if(write(fd2, t, 255) < 0) {
         perror("dup");
         return -1;
     }

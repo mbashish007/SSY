@@ -89,7 +89,8 @@ void readRecord(int fd) {
         return;
     }
     printf("Record = %s \n", buffer);
-
+    char a[5];
+    scanf("%s",a);
     lock.l_type= F_UNLCK;
     fcntl(fd, F_SETLK, &lock);
     printf("Released read lock\n");
@@ -112,21 +113,25 @@ void modifyRecord(int fd) {
 
     char buffer[recSize];
     printf("Enter modified data\n");
-    int rbytes = scanf("%s", buffer);
-    buffer[rbytes] = '\n';
-    printf("buffer = %s\n", buffer);
+    scanf("%s", buffer);
+    buffer[recSize-1] = '\n';
+    printf("buffer = %s \n", buffer);
 
     printf("Acquiring Write Lock\n");
     fcntl(fd, F_SETLKW, &lock);
     lseek(fd,(recSize *(option- 1)), SEEK_SET);
+   
+    int rB = write(fd, &buffer, recSize);
 
-    int rB = write(fd, &buffer, rbytes);
     if(rB == -1) {
         perror("write error\n");
         return;
     }
-    printf("Record = Updated Successfully \n");
+    
 
+    printf("Record = Updated Successfully \n");
+    char a[5];
+    scanf("%s",a);
     lock.l_type= F_UNLCK;
     fcntl(fd, F_SETLK, &lock);
     printf("Released write lock\n");
