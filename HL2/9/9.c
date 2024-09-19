@@ -33,11 +33,8 @@ int main() {
 
     printf("SIGINT will be ignored\n");
     signal(SIGINT,SIG_IGN);
-    // pause();
     printf("Hello\n");
-    for(int i = 0; i< 1000000000; i++){
-        // if(i%10000 == 0) printf(" waiting \n");
-    }
+    for(int i = 0; i< 1000000000; i++);
 
     printf("SIGINT reverted to default behaviour \n");
     signal(SIGINT,SIG_DFL);
