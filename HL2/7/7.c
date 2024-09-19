@@ -13,9 +13,9 @@ Date: 21 September, 2024.
 
 Output
 
-Thread 2 is running
-Thread 1 is running
-Thread 3 is running
+Thread Id: 140470378292928 is running with arg = 2
+Thread Id: 140470386685632 is running with arg = 1
+Thread Id: 140470369900224 is running with arg = 3
 ============================================================================
 */
 
