@@ -1,12 +1,12 @@
 /*
 ============================================================================
-Name: 5.c 
+Name: 7.c 
 
 Author: M B Ashish
 
 Roll No: MT2024085
 
-Description: 6. Write a simple program to create three threads.
+Description: 7. Write a simple program to print the created thread ids.
 
 Date: 21 September, 2024.
 ============================================================================
