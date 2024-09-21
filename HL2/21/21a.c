@@ -54,7 +54,7 @@ int main() {
         exit(1);
     }
 
-     int fd1 = open(fifo_path, O_RDONLY);
+     int fd1 = open(fifo_path1, O_RDONLY);
     if (fd1 == -1) {
         perror("open");
         exit(1);
