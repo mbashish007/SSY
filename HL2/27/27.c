@@ -30,17 +30,7 @@ No message available at the moment.
 #include<sys/time.h>
 #include<time.h>
 #include <errno.h>
-// #include <cerrno>
 
-// #ifndef MSGBUF_DEFINED
-// #define MSGBUF_DEFINED
-
-// struct msgbuf {
-//     long mtype;       // Message type
-//     char mtext[100];  // Message content
-// };
-
-// #endif // MSGBUF_DEFINED
 
 int main() {
     int msgid;
