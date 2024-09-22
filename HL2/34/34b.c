@@ -67,7 +67,7 @@ void *handle_client(void *arg) {
         send(client_sock, "ACK From SERVER\n", 17, 0);
     }
 
-    // Close the socket when done
+    // Close the socket 
     close(client_sock);
     printf("Client disconnected.\n");
     return NULL;
@@ -78,13 +78,13 @@ int main() {
     struct sockaddr_in server_addr, client_addr;
     socklen_t addr_len = sizeof(client_addr);
 
-    // Step 1: Create socket
+    // Create socket
     if ((server_sock = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
         perror("socket failed");
         exit(EXIT_FAILURE);
     }
 
-    // Step 2: Bind socket to address
+
     server_addr.sin_family = AF_INET;
     server_addr.sin_addr.s_addr = INADDR_ANY;
     server_addr.sin_port = htons(PORT);
@@ -95,7 +95,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    // Step 3: Listen for connections
+    // Listen for connections
     if (listen(server_sock, 5) < 0) {
         perror("listen failed");
         close(server_sock);
@@ -104,7 +104,7 @@ int main() {
 
     printf("Server listening on port %d...\n", PORT);
 
-    // Step 4: Accept and handle multiple clients concurrently using pthreads
+   
     while (1) {
         if ((client_sock = accept(server_sock, (struct sockaddr *)&client_addr, &addr_len)) < 0) {
             perror("accept failed");
